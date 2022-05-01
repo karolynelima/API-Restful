@@ -6,7 +6,11 @@ const Person = require('../models/Person')
 //Create
 router.post('/', async (req, res) =>{
     //req.body
-    const{id, createdAt, fullName, emailUser, addressId, address, country, countryCode, city, state, zipcode, contactId, name, phoneNumber, emailContact} = req.body
+    const{
+        id, createdAt, fullName, emailUser, 
+        addresses:{addressId, address, country, countryCode, city, state, zipcode},
+        contacts:{contactId, name, phoneNumber, emailContact}        
+    } = req.body
 
     if(!fullName){
         res.status(422).json({error: 'O nome é obrigatorio!'})
@@ -69,7 +73,7 @@ router.get('/:id', async (req, res) =>{
 
     try {
         //encontra o usuario pelo id do banco
-        const person = await Person.findOne({_id: id})
+        const person = await Person.findOne({id: id})
 
         if(!person){
             res.status(422).json({message: 'Usuário não foi encontrado!'})

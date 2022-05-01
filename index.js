@@ -24,7 +24,6 @@ app.get('/', (req, res) => {
 })
 
 
-//entregar porta
 //Conexão com o Banco
 const DB_USER = encodeURIComponent('admin')
 const DB_PASSWORD = encodeURIComponent('4h11NSQlOfLLhyfs')
