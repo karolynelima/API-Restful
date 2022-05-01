@@ -1,0 +1,81 @@
+{
+    "users": {
+        "data": [
+            {
+                "id": "5da9ea674234635bdff45c02",
+                "createdAt": "2019-10-18T16:37:58.979Z",
+                "fullName": "",
+                "email": "email@email.com.br",
+                "addresses":[
+                    {
+                        "addressId":"",
+                        "address":"",
+                        "country":"",
+                        "countryCode":"",
+                        "city":"",
+                        "state":"",
+                        "zipcode":""
+                    }
+                ],
+                "contacts":[
+                    {
+                        "contactId":"",
+                        "name":"",
+                        "phoneNumber":"",
+                        "email":""
+                    }
+                ]          
+            },
+            {
+                "id": "5da9ea674234635bdff45c02",
+                "createdAt": "2019-10-18T16:37:58.979Z",
+                "fullName": "",
+                "email": "email@email.com.br",
+                "addresses":[
+                    {
+                        "addressId":"",
+                        "address":"",
+                        "country":"",
+                        "countryCode":"",
+                        "city":"",
+                        "state":"",
+                        "zipcode":""
+                    }
+                ],
+                "contacts":[
+                    {
+                        "contactId":"",
+                        "name":"",
+                        "phoneNumber":"",
+                        "email":""
+                    }
+                ]          
+            },
+            {
+                "id": "5da9ea674234635bdff45c02",
+                "createdAt": "2019-10-18T16:37:58.979Z",
+                "fullName": "",
+                "email": "email@email.com.br",
+                "addresses":[
+                    {
+                        "addressId":"",
+                        "address":"",
+                        "country":"",
+                        "countryCode":"",
+                        "city":"",
+                        "state":"",
+                        "zipcode":""
+                    }
+                ],
+                "contacts":[
+                    {
+                        "contactId":"",
+                        "name":"",
+                        "phoneNumber":"",
+                        "email":""
+                    }
+                ]          
+            }
+        ]
+    }
+}
