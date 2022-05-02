@@ -74,7 +74,7 @@ router.get('/:id', async (req, res) =>{
     try {
         //encontra o usuario pelo id do banco
         const person = await Person.findOne({id: id})
-
+       
         if(!person){
             res.status(422).json({message: 'Usuário não foi encontrado!'})
             return
